@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background: cornflowerblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+}
+nav a{
+    padding: 15px 20px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #111;
+}
+nav ul{
+    margin-left: -500px;
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+color: #f2f2f2;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 12px 18px;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+background: #111 ;
+}
+nav .menu-btn i{
+color: #fff;
+font-size: 22px;
+cursor: pointer;
+display: none;
+}
+input[type="checkbox"]{
+display: none;
+}
+
+#upper-why{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding: 30px;
+    background-color: white;
+}
+.why1{
+    margin: 0 40px;
+    /* border: 1px solid red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.why1 h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.why1 p{
+    font-size: 15px;
+}
+#why-us{
+    margin: 20px;
+    height: 80vh;
+    background-color: azure;
+}
+.why-us{
+    /* border: 1px solid red; */
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;    
+}
+#lower-why{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+}
+#lower-why div{
+    width: 10%;
+    margin: 10px;
+
+}
+.why-logo2{
+    width: 100%;
+}
+#lower-why img{
+    width: 100%;
+}
+.subscription{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;    
+}
+#pricing-box{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid green; */
+    font-size: 20px;
+}
+#pricing-box>div{
+    margin: 10px;
+}
+.basic{
+    padding: 20px 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.basic h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: light;
+    color: #fff;
+}
+.basic button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: 0px solid green;
+}
+.contact-us{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;    
+    background-color: azure;
+}
+#contact{
+    display: flex;
+    width: 100%;
+    padding: 0 30px;
+    background-color: azure;
+    justify-content: center;
+}
+#contact>div{
+    margin: 0 30px;
+}
+#left-con{
+    width: 30%;
+    background-color: #fff;
+    height: fit-content;
+}
+#left-con>h1{
+    font-size: 40px;
+    margin-right: 40px;
+    padding: 0 20px;
+}
+#left-con>h1~p{
+    color: gray;
+}
+#right-con{
+    width: 40%;
+    justify-content: center;
+    background-color: #fff;
+}
+.yellow-box{
+    width: 80%;
+    background-color: lightyellow;
+    margin: 20px 0;
+}
+#input-name{
+    display: flex;
+}
+form input{
+    padding: 5px;
+}
+form .input2{
+    width: 65%;
+}
+form h5{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.input3{
+    width: 65%;
+    height: 80px;
+}
+.input-name2{
+    margin-left: 10px;
+}
+#select{
+    padding: 5px;
+    width: 65%;
+}
+form p {
+    color: gray;
+}
+.form-submit{
+    color: #fff;
+    font-size: 15px;
+    background-color: orangered;
+    border: orangered;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border-radius: 2%;
+}
+footer{
+    margin-top: 10px;
+    background-color: #34495e;
+    color: white;
+}
+#box1{
+    display: flex;
+    height: 200px;
+}
+#box1 div{
+    width: 20%;
+    display: grid;
+    /* grid-column: auto; */
+    margin: 20px;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#fcontent{
+    margin: 20px;
+}
+footer a {
+    color: white;
+}
+#box3 i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+#box3, #box4{
+    display: flex;
+    justify-content: center;
+}
+#box2 button{
+    padding: 5px 10px;
+    background-color: darkslategrey;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 40%;
+    margin-left: 10px;
+}
+.line{
+    border-top: 1px solid grey;
+    width: 100%;
+    margin-top: 10px;
+}
+#break{
+    max-width: max-content;
+    height: 20px;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+    background: white;
+    color: gray;
+}
+/* #break::before , #break::after { */
+    /* content: "";
+    height: 1px;
+    background-color: black;
+    display: block;
+} */
+.checkbtn{
+    display: none;
+    cursor: pointer;
+}
+#slider-box{
+    margin: 20px;
+    width: 100%;
+    height: 70vh;
+    /* background: #222; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 75%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+@media (max-width: 1000px){
+nav{
+    padding: 0 40px 0 50px;
+}
+}
+@media screen and (max-width: 580px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: cornflowerblue;
+        height: 100vh;
+        width: 120%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+        z-index: 20;
+    }
+    #click:checked ~ ul{
+        left: 70%;
+        top: 30px;
+    }
+    nav ul li{
+        width:110%;
+        margin: 20px 0;
+    }
+    nav ul li a{
+        width: 100%;
+        margin-left: -100%;
+        display: block;
+        font-size: 10px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+        margin-left: 0px;
+        margin: auto;
+        width: 25%;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+        background: black;
+        color: white;
+    }
+    #contact{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    #contact div{
+        width: 90%;
+        border-top: #111;
+    }
+    .contact-us{
+        width: 90%;
+        font-size: 20px;
+    }
+    #left-con{
+        text-align: center;
+        justify-content: center;
+    }
+    #right-con{   
+        max-width: max-content;
+    }
+    #right-con button{
+        justify-content: center;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
+    #upper-why{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: auto;
+    }
+    .subscription{
+    margin-top: 300px;
+    height: 50px;
+    }
+    #box2, #box3, #box4{
+        font-size: 20px;
+    }
+    #pricing-box{
+        margin-left: 25%;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+    #lower-why{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #lower-why div{
+        width: 60%;
+    }
+}
